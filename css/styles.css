@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+#calculator {
+  margin: 1rem auto;
+  width: 40rem;
+  padding: 10px;
+}
+
+#results {
+  text-align: center;
+  margin: 1rem auto;
+  width: 40rem;
+  max-width: 90%;
+  padding: 10px;
+}
+
+#calculator input {
+  font: inherit;
+  font-size: 1rem;
+  width: 10rem;
+  padding: 0.15rem;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#calculator button {
+  font: inherit;
+  background: grey;
+  color: white;
+  padding: 1rem;
+}
+
+#calc {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#add:hover {
+  background-color: white;
+  color: black;
+}
+
+#subtract:hover {
+  background-color: white;
+  color: black;
+}
